@@ -1,4 +1,4 @@
-package com.xzh.反转链表;
+package com.xzh.solution;
 
 import com.xzh.model.ListNode;
 
@@ -6,7 +6,7 @@ import com.xzh.model.ListNode;
  * @author 向振华
  * @date 2021/04/01 15:00
  */
-public class Solution {
+public class 反转链表 {
 
     /**
      * 递归反转

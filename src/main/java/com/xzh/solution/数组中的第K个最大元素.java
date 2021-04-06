@@ -8,6 +8,13 @@ import java.util.PriorityQueue;
  */
 public class 数组中的第K个最大元素 {
 
+    /**
+     * 小顶堆
+     *
+     * @param nums
+     * @param k
+     * @return
+     */
     public static int findKthLargest(int[] nums, int k) {
         // 小顶堆，堆顶是最小元素
         PriorityQueue<Integer> pq = new PriorityQueue<Integer>();

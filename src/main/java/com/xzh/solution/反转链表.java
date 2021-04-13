@@ -14,7 +14,7 @@ public class 反转链表 {
      * @param head
      * @return
      */
-    ListNode reverse(ListNode head) {
+    public static ListNode reverse(ListNode head) {
         if (head.next == null) {
             return head;
         }

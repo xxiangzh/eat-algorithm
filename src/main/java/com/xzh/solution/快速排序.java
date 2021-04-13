@@ -11,7 +11,7 @@ public class 快速排序 {
      *
      * @param nums
      */
-    void sort(int[] nums) {
+    public static void sort(int[] nums) {
         // 一般要在这用洗牌算法将 nums 数组打乱，
         // 以保证较高的效率，我们暂时省略这个细节
         sort(nums, 0, nums.length - 1);
@@ -24,7 +24,7 @@ public class 快速排序 {
      * @param lo
      * @param hi
      */
-    void sort(int[] nums, int lo, int hi) {
+    public static void sort(int[] nums, int lo, int hi) {
         if (lo >= hi) {
             return;
         }
@@ -44,7 +44,7 @@ public class 快速排序 {
      * @param hi
      * @return
      */
-    int partition(int[] nums, int lo, int hi) {
+    public static int partition(int[] nums, int lo, int hi) {
         if (lo == hi) {
             return lo;
         }
@@ -88,7 +88,7 @@ public class 快速排序 {
      * @param i
      * @param j
      */
-    void swap(int[] nums, int i, int j) {
+    public static void swap(int[] nums, int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
